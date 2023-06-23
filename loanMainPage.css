@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popping', sans-serif;
+}
+    
+.header {
+    position: fixed;
+    width: 100%;
+    background: green;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 80px;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    user-select: none;
+    padding: 25px 
+}
+
+.leftSection {
+    width: 29%;
+    color: white;
+}
+
+.rightSection {
+    width: 70%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.rightSection  .navBar {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    align-items: center;
+    padding: 20px;
+   
+    /* background: yellow; */
+}
+
+.navBar a { 
+    position: relative;
+    font-size: 15px;
+    margin-left: 40px;
+    transition: -5s;
+
+}
+
+/* .navBar ::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 5px;
+} */
+
+.fpBtn {
+    padding: 7px 10px;
+    border-radius: 5px;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.fpBtn:hover { 
+background: rgb(113, 179, 15);
+/* color: grey; */
+}
+
+.rightSection nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.rightSection nav a:hover {
+    color: rgb(224, 157, 157);
+
+}
+
+.fP {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.fP:hover {
+    border: 1px solid rgb(224, 157, 157);
+    color: grey;
+}
+.boDy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../LoanOptionHTML/slide_02-loan.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    padding: 180px 0 50px;
+    text-align: center;
+    
+}
+
+.formBox{
+   width: 30%;
+   height: auto;
+   margin: 50px 0px;
+   background-color: aqua;
+   align-items: center;
+
+}
+
+.formBox input {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0;
+
+}
+
+.btn2 {
+    width: 100%;
+    height: 30px;
+    background: greenyellow;
+    border: none;
+    outline: none;
+
+}
